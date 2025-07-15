@@ -26,15 +26,15 @@ const Detail = () => {
             backgroundImage: "url('bg img.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
-          }}
-        />
+          }}/>
+
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
             mt: -6,
-          }}
-        >
+          }}>
+
           <Avatar
             alt="Victor Crest"
             src="man1.png"
@@ -42,8 +42,8 @@ const Detail = () => {
               width: 96,
               height: 96,
               border: "4px solid white",
-            }}
-          />
+            }}/>
+
         </Box>
 
         <CardContent>
@@ -51,9 +51,7 @@ const Detail = () => {
             <Typography variant="h6" fontWeight="bold">
               Victor Crest <Typography component="span" color="text.secondary">26</Typography>
             </Typography>
-            <Typography color="text.secondary" fontSize="0.9rem">
-              London
-            </Typography>
+            <Typography color="text.secondary" fontSize="0.9rem">London</Typography>
           </Box>
         </CardContent>
 <Divider />
@@ -62,8 +60,8 @@ const Detail = () => {
             display: "flex",
             justifyContent: "space-around",
             p: 2,
-          }}
-        >
+          }}>
+            
           {[
             { label: "Followers", value: "80K" },
             { label: "Likes", value: "803K" },
