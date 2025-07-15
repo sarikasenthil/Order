@@ -5,8 +5,8 @@ import {Card,
   Typography,
   Box,
   Stack,
-  Divider,
-} from "@mui/material";
+  Divider} from "@mui/material";
+import './Detail.css';
 
 const Detail = () => {
   return (
