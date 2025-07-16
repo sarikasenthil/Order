@@ -18,8 +18,9 @@ const Detail = () => {
         justifyContent: "center",
         alignItems: "center",
         p: 2,}}>
-      <Card
-        sx={{width: 320,borderRadius: 3,overflow: "hidden",boxShadow: 6,}}>
+
+      <Card 
+      sx={{width: 320,borderRadius: 3,overflow: "hidden",boxShadow: 6,}}>
         <Box
           sx={{
             height: 100,
@@ -43,7 +44,7 @@ const Detail = () => {
               height: 96,
               border: "4px solid white",
             }}/>
-
+            
         </Box>
 
         <CardContent>
@@ -55,7 +56,7 @@ const Detail = () => {
           </Box>
         </CardContent>
 <Divider />
-        <Box
+        <Box 
           sx={{
             display: "flex",
             justifyContent: "space-around",
@@ -69,8 +70,7 @@ const Detail = () => {
           ].map((item) => (
             <Box key={item.label} textAlign="center">
               <Typography fontWeight="bold">{item.value}</Typography>
-              <Typography variant="body2" color="text.secondary">
-                {item.label}
+              <Typography variant="body2" color="text.secondary">{item.label}
               </Typography>
             </Box>
           ))}
